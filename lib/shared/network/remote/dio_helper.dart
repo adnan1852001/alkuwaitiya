@@ -7,7 +7,7 @@ class DioHelper {
   static init() {
     dio = Dio(
       BaseOptions(
-        baseUrl: 'https://q8store.co/api/',
+        baseUrl: '***************',
         receiveDataWhenStatusError: true,
         headers: {
           'Content-type': 'application/json',
